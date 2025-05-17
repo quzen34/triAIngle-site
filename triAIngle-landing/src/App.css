@@ -1,0 +1,101 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+body {
+  background: #181f29;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;        /* YATAY ORTALAR */
+  justify-content: center;    /* DİKEY ORTALAR */
+  gap: 1.5rem;
+  background: #181f29;
+}
+
+.studio-card, .features-card, .audience-card, .contact-card {
+  background: #111a22;
+  border-radius: 18px;
+  padding: 1.8rem 2.5rem;
+  box-shadow: 0 4px 28px 0 #0b0b0b3b;
+  width: 100%;
+  max-width: 490px;
+  color: #fafbfc;
+  margin-bottom: 0.6rem;
+}
+
+h1, h2, h3 {
+  color: #8cf5c0;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.6em 0;
+  font-size: 1.04rem;
+  line-height: 1.55;
+}
+
+a {
+  text-decoration: underline;
+  color: #6dffe5;
+}
+
+@media (max-width: 600px) {
+  .studio-card, .features-card, .audience-card, .contact-card {
+    padding: 1rem 0.5rem;
+    max-width: 99vw;
+  }
+  .main-container {
+    padding: 0.4rem;
+    gap: 0.7rem;
+  }
+}
