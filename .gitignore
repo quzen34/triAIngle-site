@@ -1,3 +1,16 @@
+# derlenmiş dosyalar / çıktı
+dist/
+
+# paket yöneticisi klasörü
+node_modules/
+
+# yerel ortam değişkenleri
+.env
+.env.*
+
+# sanal python ortamın (kalacaksa)
 venv/
+
+# log, cache vs.
 *.log
 __pycache__/
