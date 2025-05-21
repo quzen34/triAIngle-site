@@ -1,68 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TriAIngle – AI‑Powered Media Tools</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-  <style>
-    :root {
-      --accent: #00AF7E;
-      --bg: #ffffff;
-      --text: #113644;
-      --text-light: #555;
-    }
-    * {box-sizing:border-box;margin:0;padding:0;font-family:"Inter",sans-serif;}
-    body {background:var(--bg);color:var(--text);line-height:1.6;display:flex;flex-direction:column;min-height:100vh;}
-    header {padding:1.2rem 5%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e3e8ed;}
-    header h1 {font-size:1.5rem;font-weight:700;}
-    nav a {margin-left:1.5rem;text-decoration:none;font-weight:600;color:var(--text);}nav a:hover{color:var(--accent);}
-    .hero {text-align:center;padding:6rem 5%;}
-    .hero h2 {font-size:2.25rem;font-weight:700;margin-bottom:1rem;}
-    .hero p {max-width:640px;margin:0 auto 2.5rem;color:var(--text-light);} 
-    .btn {background:var(--accent);color:#fff;padding:0.9rem 2.4rem;border-radius:8px;font-size:1rem;font-weight:600;border:none;cursor:pointer;transition:background .25s;} .btn:hover{background:#00956c;}
-    .features {display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2rem;padding:4rem 5%;max-width:1100px;margin:0 auto;}
-    .feature-card {border:1px solid #f0f2f5;border-radius:16px;padding:2rem;text-align:center;transition:transform .25s;}
-    .feature-card:hover{transform:translateY(-6px);box-shadow:0 8px 20px rgba(0,0,0,.06);}  
-    footer {margin-top:auto;background:#f8f9fa;padding:2rem 5%;text-align:center;font-size:0.95rem;color:var(--text-light);} 
-    footer a {color:var(--accent);text-decoration:none;}
-  </style>
-</head>
-<body>
-  <header>
-    <h1>TriAIngle</h1>
-    <nav>
-      <a href="#features">Features</a>
-      <a href="mailto:hello@triAIngle.com">Contact</a>
-    </nav>
-  </header>
-
-  <section class="hero">
-    <h2>AI‑Powered Media Tools that <br />Super‑Charge Your Content</h2>
-    <p>TriAIngle provides deep‑learning driven video & image generation APIs, letting creators automate production and monetise at scale – without touching complex ML pipelines.</p>
-    <button class="btn" onclick="location.href='mailto:hello@triAIngle.com'">Request Early Access</button>
-  </section>
-
-  <section id="features" class="features">
-    <div class="feature-card">
-      <h3>Deepfake API</h3>
-      <p>Create hyper‑realistic face‑swap videos in minutes via simple REST calls.</p>
-    </div>
-    <div class="feature-card">
-      <h3>Voice Cloning</h3>
-      <p>Generate natural‑sounding speech in 40+ languages with one‑shot voice samples.</p>
-    </div>
-    <div class="feature-card">
-      <h3>Bulk Rendering</h3>
-      <p>Mass‑produce personalised clips & images on GPU clusters – pay as you go.</p>
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2025 TriAIngle Ltd.  |  <sup><a href="#">Privacy&nbsp;Policy</a></sup></p>
-    <p>Business address: <em>(will be updated)</em></p>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
